@@ -1,0 +1,1 @@
+const GamePreview = ({ onSelectGame, onClose }) => <div><button onClick={() => onSelectGame('tictactoe')}>Play Game</button><button onClick={onClose}>Close</button></div>; export default GamePreview;

@@ -1,0 +1,1 @@
+const SocialChat = ({ currentUser, isOpen }) => isOpen ? <div>Chat</div> : null; export default SocialChat;

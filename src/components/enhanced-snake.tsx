@@ -1,0 +1,1 @@
+const EnhancedSnake = ({ onWin, onClose }) => <button onClick={onWin}>Win Snake</button>; export default EnhancedSnake;

@@ -1,0 +1,1 @@
+const ProfileModal = ({ user, isOpen, onClose, onUpdateUser }) => isOpen ? <div>Profile</div> : null; export default ProfileModal;

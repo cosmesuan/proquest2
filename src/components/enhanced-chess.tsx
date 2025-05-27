@@ -1,0 +1,1 @@
+const EnhancedChess = ({ onWin, onClose }) => <button onClick={onWin}>Win Chess</button>; export default EnhancedChess;

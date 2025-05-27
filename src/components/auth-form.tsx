@@ -1,0 +1,1 @@
+const AuthForm = ({ onLogin }) => <button onClick={() => onLogin({ id: '1', name: 'User', email: 'user@example.com', xp: 0, level: 1, streak: 0, tasksCompletedToday: 0, tasks: [], achievements: [], gamesWon: 0, joinedDate: new Date().toISOString() })}>Login</button>; export default AuthForm;
